@@ -50,7 +50,7 @@ function draw() {
 }
 
 function downKey() {
-	if(keyDown("space")) {
+	if(keyDown("down")) {
 	Matter.Body.setStatic(false); 
   }
 }
