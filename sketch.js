@@ -46,10 +46,10 @@ function draw() {
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
   drawSprites();
-  keyPressed();
+  downKey();
 }
 
-function keyPressed() {
+function downKey() {
 	if(keyDown("space")) {
 	Matter.Body.setStatic(false); 
   }
