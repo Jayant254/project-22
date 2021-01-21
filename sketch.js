@@ -50,7 +50,7 @@ function draw() {
 }
 
 function downKey() {
-	if(keyDown("down")) {
-	Matter.Body.setStatic(false); 
+	if (keyCode === DOWN_ARROW) {
+    Matter.Body.setStatic(packageBody,false);
   }
 }
